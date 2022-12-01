@@ -4,13 +4,6 @@ import { useNavigation } from "@react-navigation/native";
 import { database } from "../config/firebase";
 import { collection, onSnapshot, orderBy, query } from "firebase/firestore";
 import Product from "../components/Product";
-import {
-  AppBar,
-  IconButton,
-  Backdrop,
-  BackdropSubheader,
-} from "@react-native-material/core";
-import Icon from "@expo/vector-icons/MaterialCommunityIcons";
 
 export default function Home() {
   const navigation = useNavigation();

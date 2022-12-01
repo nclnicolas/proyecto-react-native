@@ -29,6 +29,7 @@ export default function Add() {
       emoji: emojiObject.emoji,
     });
   };
+  
 
   return (
     <View style={styles.container}>
